@@ -4,14 +4,23 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native run-ios &  npx react-devtools@3.x",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.7",
     "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react-native": "0.61.5",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-looped-carousel": "^0.1.13",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-screens": "^2.4.0",
+    "react-navigation": "^4.3.3",
+    "react-navigation-stack": "^2.3.6",
+    "react-navigation-tabs": "^2.8.7"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
